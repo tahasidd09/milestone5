@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsla(50, 33%, 25%, .75);}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #916c8e;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#resume-output {
+    margin-top: 20px;
+}
+
+#resume-output p {
+    line-height: 1.6;
+}
+
+#share-section {
+    margin-top: 20px;
+}
+
+.editable {
+    cursor: pointer;
+    padding: 2px;
+    border: 1px dashed transparent;
+    transition: border-color 0.3s ease;
+}
+
+.editable[contenteditable="true"] {
+    border-color: #aaa;
+    background-color: #f9f9f9;
+}
